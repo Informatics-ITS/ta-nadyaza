@@ -1,50 +1,57 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Nadya Zuhria Amana  
+**NRP**: 5025211058  
+**Judul TA**: Pengembangan Antarmuka Multimodal untuk Aplikasi Pembelajaran Asistif Bahasa Oral Anak Tuli di SLB Karya Mulia Surabaya  
+**Dosen Pembimbing**: Siska Arifiani, S.Kom., M.Kom  
+**Dosen Ko-pembimbing**: Endah Riwayati, S.Pd
 
 ---
 
 ## 📺 Demo Aplikasi  
 Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://drive.google.com/uc?export=view&id=1ClahnhtM5VUy1a22fC44B_XaDrQtCi6E)](https://www.youtube.com/watch?v=frrw7sgdrB0)  
 *Klik gambar di atas untuk menonton demo*
-
----
-
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
+- Daftar dependensi :
   - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - npm
+  - Expo CLI (untuk aplikasi mobile)
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-nadyaza.git
+   cd ta-nadyaza
    ```
 2. **Instalasi Dependensi**
+- Untuk aplikasi mobile:
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd voca/mobile
+   npm install
+   ```
+- Untuk aplikasi dashboard:
+   ```bash
+   cd voca/dashboard
+   npm install
    ```
 3. **Konfigurasi**
 - Salin/rename file .env.example menjadi .env
 - Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
 4. **Jalankan Aplikasi**
+- Untuk Web Dashboard
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   cd voca/dashboard
+   npm run dev
+   ```
+- Untuk Mobile App
+   ```bash
+   cd voca/mobile
+   npx expo start
    ```
 5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
@@ -52,11 +59,8 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
+- 🔗 [Prototipe Mobile (Figma)](https://www.figma.com/proto/paEsleqadhn0hNcEb3ALRc/Voca-part-2?page-id=1011%3A41299&node-id=1011-50209&p=f&viewport=2196%2C36%2C0.09&t=kvDRjvmOF09hf8vF-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1011%3A48871&show-proto-sidebar=1)
+- 🔗 [Prototipe Dashboard (Figma)](https://www.figma.com/proto/paEsleqadhn0hNcEb3ALRc/Voca-part-2?page-id=1169%3A27318&node-id=1169-34474&viewport=135%2C79%2C0.05&t=witSrHqtJSF2kqo5-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1169%3A34474)
 
 ## ✅ Validasi
 
@@ -71,5 +75,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: [nadyazuhria@gmail.com]
+- Pembimbing Utama: [siska@its.ac.id]
